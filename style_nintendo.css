@@ -1,0 +1,184 @@
+/* Resetea la pagina*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.background_nintendo{
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+
+#titulo{
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    color:white;
+    font-size:50px;
+    text-shadow: 3px 5px 2px rgb(63, 18, 90);
+}
+
+.contenedor{
+    position: relative;
+    display: flex;
+    width: 1000px;
+    height: 400px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    left: 470px;
+    bottom: 50px;
+}
+
+.contenedor img {
+
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 10px;
+
+}
+.contenedor img{
+    width: 50px;
+    height: 210px;
+    flex-grow:1;
+    object-fit: cover;
+    opacity: .8;
+    transition: 0.5s ease;
+    
+}
+.contenedor img:hover{
+cursor:crosshair;
+width: 300px;
+opacity: 1;
+filter: contrast(120%);
+}
+
+#subtitulo{
+    position: relative;
+    position: absolute;
+    color: white;
+    flex-wrap: wrap;
+    display: flex;
+    font-size:50px;
+    left: 70px;
+    text-shadow: 3px 5px 2px rgb(100, 26, 23);
+
+}
+
+#texto{
+    position: relative;
+    position: absolute;
+    color: white;
+    text-align: justify;
+    text-justify: inter-word;
+    left: 20px;
+    top: 200px;
+    font-size: 17px;
+    line-height: 2.7;
+    
+}
+
+#centrar_texto{
+    text-align: justify;
+}
+
+.consolas{
+    position: relative;
+    display: flex;
+    width: 600px;
+    height: 200px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    left: 15px;
+    top: 250px;
+}
+.consolas img{
+    border-radius: 10%;
+    border: 7px solid black;
+    flex-grow: 1;
+    width: 120px;
+    height: 200px;
+    object-fit: cover;
+    opacity: .8;
+    transition: 0.5s ease;
+}
+
+
+.consolas img:hover{
+cursor:crosshair;
+width: 220px;
+opacity: 1;
+filter: contrast(120%);
+}
+
+
+
+
+
+
+#subtitulo2{
+    position: relative;
+    position: absolute;
+    flex-wrap: wrap;
+    display: flex;
+    color:white;
+    font-size: 50px;
+    left: 82%;
+    top: 70px;
+    text-shadow: 3px 5px 2px rgb(100, 26, 23);
+
+}
+
+#Juegos{
+    position: relative;
+    position: absolute;
+    color: white;
+    text-align: justify;
+    text-justify: inter-word;
+    left: 80%;
+    top: 220px;
+    font-size: 17px;
+    line-height: 2.0;
+    
+}
+
+#centrar_texto2{
+    text-align: justify;
+}
+
+
+#titulo_mini{
+    position: relative;
+    position: absolute;
+    flex-wrap: wrap;
+    display: flex;
+    color:white;
+    font-size: 17px;
+    left: 890px;
+    top: 90px;
+}
+
+#piedepagina{
+    position: absolute;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    bottom: 0px;
+    font-size: 20PX;
+    color: #fff;
+    text-shadow: 3px 5px 2px rgb(63, 18, 90);
+}
+#piedepagina{
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+}

@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  position: relative;
+  color: #1c1347;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  font-size: 40px;
+}
+
+p {
+  position: relative;
+  position: absolute;
+  text-align: justify;
+  text-justify: inter-word;
+  bottom: -300px;
+  right: 10px;
+  font-size: 18px;
+}
+
+.plati{background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div {position: relative;
+  top: 100px;
+}
+
+.autom{position: absolute;
+    max-width: 25%; 
+    left: 250px;
+    top: 10%;
+    border-radius: 5%;
+    border: 7px solid black;
+}
+
+.gear{position: absolute;
+    max-width: 25%; 
+    left: 250px; 
+    top: 300px;
+    border-radius: 5%;
+    border: 7px solid black;
+}
+
+.bayo{position: absolute;
+    max-width: 450px;
+    height: 270;
+    left: 870px;
+    top:10%;
+    border-radius: 5%;
+    border: 7px solid black;
+}
+
+.astra{position: absolute;
+    max-width: 24%; 
+    left: 870px; 
+    top: 304px;
+    height: 260px;
+    border-radius: 5%;
+    border: 7px solid black;
+}
+
+p {
+font-family: Arial Black;
+color: #ececec;
+line-height: 2.7;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+}
+.derecha {
+  text-align: right;
+}
+
+
+#piedepagina{
+  position: absolute;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+   bottom: 0px;
+    font-size: 20PX;
+  color: white;
+}
+#piedepagina{
+  font-size: 20px;
+bottom: 20px;
+left: 840px;
+}

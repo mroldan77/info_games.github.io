@@ -1,0 +1,107 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  font-family: Arial Black;
+  background-color: #000000;
+}
+
+h1 {
+  color: #818181;
+  align-items: right;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  font-size: 50px;
+}
+
+p {
+  position: relative;
+  font-size: 16px;
+  line-height: 2.7;
+  right: 20px;
+  justify-content: justify;
+}
+p 
+  {
+  color: #FFFFFF;
+}
+
+div {
+  position: relative;
+  top: 50px;
+}
+
+.artorias{background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.elden{
+  position: absolute;
+  left: 5%;
+  top: 10%;
+  display: block;
+  max-width: 25%; 
+  border:5px solid black;
+  border-radius: 5%;
+  margin: 0 auto;
+  
+}
+
+.seki{position: absolute;
+  max-width: 20%; 
+  left: 20%; 
+  top: 300px;
+  border-radius: 5%;
+  border: 5px solid black;
+}
+
+
+.bloo{
+  position: absolute;
+  max-width: 300px; 
+  height: 270px;
+  left: 55%;
+  top:10%;
+  border-radius:5%;
+  border: 5px solid black;
+}
+
+.souls{position: absolute;
+  max-width: 20%;
+  height: 270px;
+  left: 32%; 
+  top: 1px;
+  border-radius: 5%;
+  border: 5px solid black;
+}
+
+.desouls{position: absolute;
+  max-width: 400px;
+  left: 45%;
+  top: 300px;
+  height: 380px;
+  border-radius: 5%;
+  border: 5px solid black;
+}
+
+#piedepagina{
+  position: absolute;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+   bottom: 0px;
+    font-size: 20PX;
+  color: #fff;
+  text-shadow: 3px 5px 2px rgb(63, 18, 90);
+}
+#piedepagina{
+  font-size: 20px;
+bottom: 20px;
+left: 840px;
+}
